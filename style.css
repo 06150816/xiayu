@@ -1,0 +1,70 @@
+*{
+    padding: 10;
+    margin: 0;
+}
+header{
+    background-color: #231c1a;
+}
+h1{
+    color: white;
+    padding: 30px 50px;
+}
+header ul{
+    position:absolute;
+    color: aquamarine;
+    right: 10px;
+    top: 10px;
+    line-height: 60%;
+}
+h1 {
+    position:absolute;
+    left: 240px;
+    top: 10px;
+    line-height: 50px;
+    background-image: url("夏屿/6e850dd944356b98335ecb237e051bf.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 210px;
+    text-indent: -240px;
+}
+.回忆{
+    background-color: rgb(121, 98, 69);
+    color: rgb(147, 47, 47);
+    height: 80vh;
+    background-image:url("轮播图/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.回忆{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.回忆 h2{
+    font-size: 60px;
+}
+.初屿{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.初屿 h3{
+    font-size: 60px;
+}
+.结尾{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.结尾{
+    background-color: #097a35;
+}
+.结尾 p{
+    font-size: 20px;
+}
+

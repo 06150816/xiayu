@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.message-board {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+}
+
+.message {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 1.1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 250px;
+    height: 200px;
+}
+
+.message:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.message-meta {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.message-content {
+    font-size: 1em;
+    color: #333;
+    display: flex;
+    align-content: center;
+}
+
+.message-author {
+    text-align: right;
+    margin: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.title h1, .title p {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 14px;
+}
+@keyframes slideIn {
+    from {
+        transform: translateY(-400%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.slide-in {
+    animation: slideIn 1s ease forwards;
+}
