@@ -3,10 +3,10 @@
     margin: 0;
 }
 header{
-    background-color: #231c1a;
+    background-color: #4f403b;
 }
 h1{
-    color: white;
+    color: rgb(79, 222, 136);
     padding: 30px 50px;
 }
 header ul{
@@ -21,7 +21,7 @@ h1 {
     left: 240px;
     top: 10px;
     line-height: 50px;
-    background-image: url("夏屿/6e850dd944356b98335ecb237e051bf.jpg");
+    background-image: url("夏屿/25a857622c6580b479de3e3581f2c37.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -29,10 +29,9 @@ h1 {
     text-indent: -240px;
 }
 .回忆{
-    background-color: rgb(121, 98, 69);
-    color: rgb(147, 47, 47);
-    height: 80vh;
-    background-image:url("轮播图/2.jpg");
+    color: rgb(157, 104, 167);
+    height: 95vh;
+    background-image: url("轮播图/10.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -46,14 +45,43 @@ h1 {
 .回忆 h2{
     font-size: 60px;
 }
+.同事{
+    background-image: url("夏屿/微信图片_20241224205755.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.同事{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.同事 h3{
+    font-size: 60px;
+}
+.同事 a{
+    color: rgb(158, 110, 231);
+    text-decoration: none;
+}
+.初屿{
+    background-image: url("夏屿/d5a2cd24bc0eede8d2e06d943917b46.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .初屿{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.初屿 h3{
+.初屿 h4{
     font-size: 60px;
+}
+.初屿 a{
+    color: rgb(111, 125, 203);
+    text-decoration: none;
 }
 .结尾{
     display: flex;
@@ -62,9 +90,11 @@ h1 {
     justify-content: center;
 }
 .结尾{
-    background-color: #097a35;
+    background-color: #4268af;
 }
 .结尾 p{
     font-size: 20px;
 }
-
+.结尾 a{
+    color: black;
+}
